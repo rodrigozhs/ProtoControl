@@ -1,0 +1,38 @@
+/*
+	@author Rodrigo Zani <rodrigo.zhs@gmail.com>
+
+	CSS principal do prototipo Control 
+*/
+
+
+/* CLEARFIX - BORDER BOX*/
+
+.clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
+}
+ 
+.clearfix:after {
+   clear: both;
+}
+ 
+.clearfix {
+   *zoom: 1;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ===|=== ESTRUTURA ===========================================*/
+
+body {
+    font-size: 62.5%;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+}
+

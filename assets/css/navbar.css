@@ -1,0 +1,52 @@
+
+/* ===|=== NAVBAR ==============================================*/
+
+.navbar{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	min-height: 5.6em;
+	margin-bottom: 3.6em;
+
+}
+
+.navbar-fixed-top{
+	top: 0;
+	border-width: 0 0 1px;
+}
+
+.navbar-fixed-bottom{
+	bottom: 0;
+	border-width: 0 0 1px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom{
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+@media screen and (max-width: 768) {
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius:0;
+}
+}
+
+.nav-menu{
+	float: left;
+	margin: 1.2em;
+}
+
+.button-menu{
+	width: 2.6em;
+	background: url(../img/icons/png/menu.png);
+	background-image: url(../img/icons/svg/menu.svg), none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+/* THEMING */
+.header{
+	background-color: #4285f4;
+	box-shadow: 0px 5px 15px #888888;
+}
